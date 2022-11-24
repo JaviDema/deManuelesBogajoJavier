@@ -1,0 +1,149 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{height: 900px;}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    height: auto;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	border-radius: 0 0 85% 85% / 30%;
+    background-size: cover;
+	background-attachment: fixed;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #393E46 20%, #00ADB5 100%);
+	
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 40px;
+}
+
+.general{
+    background-color: #C9D6DF;
+}
+
+.menu {
+    padding: 10px 15px;
+    margin: auto;
+    text-align: center;    
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 20px verdana;
+    display: inline-block;
+}
+
+
+
+.seccion{
+    margin: 70px;
+}
+
+.titulo{
+    font-size: 3rem;
+    margin: 20px;
+
+}
+
+.articulo{
+    margin:35px;
+    
+}
+
+.subtitulo{
+    font-size: 2.4rem;
+    margin: 20px;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 25px;
+    margin: 0px 10px 70px; 
+}
+
+.imagen {
+    width: 300px;
+    margin: -50px 32.5% 60px;    
+}
+
+.lista{
+    font-size: 2rem;
+    text-align: justify;
+    padding: 0px 20px;
+    line-height: 25px;
+    margin: 0 0 70px;
+}
+
+/* *** SERVICIOS *** */
+
+.servicios1{
+    margin: 50px;
+    padding-bottom: 30px;
+}
+
+.servicios2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+.servicios{
+    font-size: 2rem;
+}
+
+.pServicios{
+    font-size: 1.5rem;
+    margin-top:5px;
+    line-height: 15px;
+}
+
+.tabla tbody tr > td{
+    border: 1px solid rgb(220,220,220);
+    height: 50px;
+    text-align: center;
+}
+.tabla{
+    width: 800px;
+    padding-left: 40px;
+    margin-top: 20px;
+    font-size: 2rem;
+}
